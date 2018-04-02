@@ -88,15 +88,7 @@ License
 History
 -------
 
-I needed to have a text wrap around images and other views in an Android App but I was surprised and frustrated to discover that there was no way to do this natively.
-
-The general consensus was that the only practical way to achieve this was to use WebViews.
-
-Using webviews is a bit bloaty and overkill to achieve this. We lose the direct control and performance of using native widgets.
-
-So I developed a native widget which extends RelativeLayout (I figured this was more versatile than LinearLayout) which is capable of painting text around its child views.
-
-The code is still a little rough and I suspect it could be vastly improved in many areas but it seems to work quite well.
+A text wrap around images and other views are required in an Android APP, however, there is no way to achieve them by native programming.  Using WebViews is the only practical way to achieve the goal. The direct control and performance are closed because WebViews is a bit bloaty and overkilled. The native widget is used to extend RelativeLayout which is capable of painting text around its child views. The code is rough and the author suspects vast improvement in many areas.
 	
 TODO
 --------
